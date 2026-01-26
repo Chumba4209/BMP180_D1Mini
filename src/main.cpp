@@ -83,7 +83,7 @@ void loop() {
   display.printf("Press: %.0f Pa", pressure);
   
   display.setCursor(0, 50);
-  display.printf("Alti: %.2f m", altitude);
+  display.printf("Altgit: %.2f m", altitude);
   
   display.display();
 
