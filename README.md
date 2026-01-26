@@ -209,6 +209,17 @@ http://0.0.0.0:5000
 
 Option 1: Open a new file in VS code (Ctrl+ Shift+ N) > Click Clone git repository > Choose repository to clone
 
+<img width="447" height="466" alt="image" src="https://github.com/user-attachments/assets/2b97be2a-6502-41d3-81de-600f31cbbb54" />
+
+
+
+<img width="1353" height="76" alt="image" src="https://github.com/user-attachments/assets/5536ade3-0eee-43eb-b913-837f730c1d55" />
+
+
+
+<img width="944" height="709" alt="image" src="https://github.com/user-attachments/assets/d2079aab-216d-4904-a655-203b93160c89" />
+
+
 
 PlatformIO will download all libraries related to the project automatically 
 
