@@ -22,7 +22,8 @@ BMP180 Sensor → ESP8266 D1 Mini → OLED Display → Flask API → MongoDB
 * ESP8266 D1 Mini
 * BMP180 Pressure & Temperature Sensor
 * 0.96" OLED Display (SSD1306, I2C)
-* Jumper wires
+* Carenuity's triple adapter
+* Jumper wires (If you dont have triple adapter)
 * USB cable
 
 ###   I2C Connections (D1 Mini)
@@ -59,7 +60,7 @@ Download and install **Visual Studio Code**:
 
 ---
 
-## 🚀 ESP8266 Setup (C++ / PlatformIO)
+##   ESP8266 Setup (C++ / PlatformIO)
 
 ### 3️⃣ Create a New PlatformIO Project
 
@@ -107,7 +108,7 @@ const char* password = "YOUR_WIFI_PASSWORD";
 const char* serverURL = "http://<SERVER_IP>:5000/api/bmp180";
 ```
 
-⚠️ Replace `<SERVER_IP>` with the IP address of the computer running Flask.
+N/B: Replace `<SERVER_IP>` with the IP address of the computer running Flask.
 
 ---
 
@@ -119,7 +120,7 @@ const char* serverURL = "http://<SERVER_IP>:5000/api/bmp180";
 
 ---
 
-## 🐍 Flask Server Setup (Python)
+##   Flask Server Setup (Python)
 
 ### 7️⃣ Install Python
 
@@ -157,7 +158,7 @@ localhost:27017
 
 ### 🔟 Run the Flask Server
 
-1. N/avigate to the server file
+1. Navigate to the server file
 2. Run:
 
 ```bash
@@ -172,7 +173,7 @@ http://0.0.0.0:5000
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
 | Endpoint      | Method | Description          |
 | ------------- | ------ | -------------------- |
@@ -204,10 +205,13 @@ http://0.0.0.0:5000
 
 ---
 
-### 📥 Clone the Project (Open in VS Code)
+###  Clone the Project (Open in VS Code)
 
-Option 1: Open a new file in VS code (Ctrl+ Shift+ N) > Click Clone git repository
-PlatformIO will download all libraries automatically
+Option 1: Open a new file in VS code (Ctrl+ Shift+ N) > Click Clone git repository > Choose repository to clone
+
+
+PlatformIO will download all libraries related to the project automatically 
+
 Option 2: Open
 
 ```bash
